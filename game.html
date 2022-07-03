@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batman - Joker </title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/gameroom_6044 (1).png">
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+   
+  <div class="box">
+    <div class="person">
+        <div class="Batman-health progress">
+          <span></span>
+        </div>
+        <h2>Batman</h2>
+        <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReUkUekY9cQ5IKAbXUbfEXtj5s3hfDtUdvUA&usqp=CAU "alt="">
+        <button id="Batman-attack">Attack</button>
+        <button id="Batman-make-health">Health</button>
+        <button id="Batman-status">Status</button>
+        <p id="Batman-alive"></p>
+    </div>
+    <div class="person">
+        <div class="Joker-health progress">
+            <span></span>
+        </div>
+        <h2>Joker</h2>
+        <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH5_1oB4ay8TaH4mNWrnKx46IjgSaNFQEdyw&usqp=CAU" alt="">
+        <button id="Joker-attack">Attack</button>
+        <button id="Joker-make-health">Health</button>
+        <button id="Joker-status">Status</button>
+        <p id="Joker-alive"></p>
+    </div>
+  </div> 
+  <div class="status">
+    <div class="screen">
+        <div class="label-of-screen">Status</div>
+        <p id="Batman-stat"></p>
+    </div>
+    <div class="new-game">
+        <button id="win">New game</button>
+    </div>
+    <div class="screen">
+        <div class="label-of-screen">Status</div>
+        <p id="Joker-stat"></p>
+    </div>
+  </div>
+
+<script src="game.js"></script>
+</body>
+</html>
